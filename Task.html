@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tasks Reader</title>
+    <link rel="stylesheet" href="./Task.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+Y9q/RHy8fHxIEjzD12kByzJhv5i1x2b4W4Jv8f+3gJQ2CB"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" href="./task-list-svgrepo-com.svg" />
+  </head>
+  <body>
+    <div class="shadow">
+      <div class="container">
+        <div class="head">
+          <h1>
+            <img
+              src="./task-vector-icon-removebg-preview.png"
+              alt=""
+              width="70px"
+              height="70px"
+            />
+            Mark your Tasks
+          </h1>
+        </div>
+        <div class="f">
+          <div id="add-task-container">
+            <input type="text" placeholder="Enter Tasks..." id="input-task" />
+            <button id="add-task">+</button>
+          </div>
+          <p id="task-container"></p>
+        </div>
+      </div>
+    </div>
+    <script src="./Task.js"></script>
+  </body>
+</html>
